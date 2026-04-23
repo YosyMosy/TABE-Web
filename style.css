@@ -12,14 +12,14 @@ body {
 
 
 #navbar {
-    padding: 20px 50px;
+    padding: 0 50px;
     z-index: 1000;
     box-shadow: 0px 5px 10px 0px #959595;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    gap: 20px;
+    gap: 5px;
     background-color: white;
 }
 #navitem {
@@ -37,7 +37,7 @@ body {
 
 .header {
     display: flexbox;
-    margin-top: 220px;
+    margin-top: 200px;
     text-align: center;
     font-size: 150%;
 }
@@ -62,8 +62,29 @@ body {
     background-color: #ffe694;
 }
 
+.main-1 {
+    margin-top: 200px;
+    text-align: center;
+}
 
-
+.main-2 {
+    display: flexbox;
+    text-align: center;
+}
+.main-tlogo {
+    align-items: center;
+    justify-content: center;
+}
+#tlogo1 {
+    max-width: 250px;
+    height: auto;
+    display: flexbox;
+}
+#tlogo2 {
+    max-width: 250px;
+    height: auto;
+    display: flexbox;
+}
 
 .home-content {
     display: table-cell;
