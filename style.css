@@ -5,6 +5,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 body {
     font-size: 1.7rem;
@@ -17,6 +18,31 @@ p {
     font-size: 20px;
 }
 
+nav { 
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+#navitems {
+}
+#tabetext {
+    font-weight: bold;
+}
+#tabelogo0 {
+    cursor: pointer;
+    max-width: 130px;
+    height: auto;
+}
 
 .header {
     display: flexbox;
@@ -53,11 +79,15 @@ p {
 .graytext {
     color: #525252;
 }
+
+
+
 hr {
     border: 0;
     border-top: 2px solid #333;
     width: 70%;
-    margin-left: 400px;
+    margin-right: 0;
+    margin-left: auto;
 }
 #main-2 {
     display: flexbox;
@@ -81,17 +111,20 @@ hr {
 
 .menu-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: auto;
+    margin-bottom: 70px;
 }
 .menumainimg {
+    margin-top: 36px;
+    margin-bottom: auto;
 }
 #menuimg1 {
-    max-width: 270px;
+    max-width: 150px;
     height: auto;
 }
 .menudesc {
-    grid-column-start: span 4 / span 4;
+    font-size: 16px;
 }
 
 .home-content {
