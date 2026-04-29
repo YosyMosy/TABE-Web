@@ -66,6 +66,7 @@ nav {
     margin-top: 300px;
     margin-bottom: 100px;
     text-align: center;
+    padding-top: 100px;
 }
 .graytext {
     color: #525252;
@@ -97,6 +98,10 @@ hr {
 #main-2 {
     display: flexbox;
     text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.1);
 }
 .main-tlogo {
     align-items: center;
@@ -127,7 +132,7 @@ hr {
     text-align: center;
 }
 .menumainimg {
-    margin-top: 36px;
+    margin-top: 23px;
     margin-bottom: auto;
 }
 #menuimg1 {
@@ -163,6 +168,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.contactimg {
+    max-width: 300px;
+}
+
 .anim {
     display: inline-block;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
